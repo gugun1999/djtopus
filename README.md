@@ -1,4 +1,4 @@
-# ⛓️🔗⛓️ Template for IBC enabled Solidity contracts
+# ⛓️🔗⛓️ IBC enabled Solidity contracts
 
 This repo provides a starter project to build [IBC](https://github.com/cosmos/ibc) enabled Solidity contracts that connect rollups to one another Polymer Hub, through the [vIBC core contracts](https://github.com/open-ibc/vibc-core-smart-contracts).
 
@@ -290,23 +290,3 @@ npx hardhat run scripts/send-universal-packet.js --network base
 ```
 
 To send a universal packet from the contract specified in the config.sendUniversalPacket field in the config.
-
-## 🤝 Contributing
-
-We welcome and encourage contributions from our community! Here’s how you can contribute.
-
-Take a look at the open issues. If there's an issue that has the _help wanted_ label or _good first issue_, those are up for grabs. Assign yourself to the issue so people know you're working on it.
-
-Alternatively you can open an issue for a new idea or piece of feedback.
-
-When you want to contribute code, please follow these steps:
-
-1. **Fork the Repository:** Start by forking this repository.
-2. **Apply the improvements:** Want to optimize something or add support for additional developer tooling? Add your changes!
-3. **Create a Pull Request:** Once you're ready and have tested your added code, submit a PR to the repo and we'll review as soon as possible.
-
-## 💡 Questions or Suggestions?
-
-Feel free to open an issue for questions, suggestions, or discussions related to this repository. For further discussion as well as a showcase of some community projects, check out the [Polymer developer forum](https://forum.polymerlabs.org).
-
-Thank you for being a part of our community!
